@@ -18,7 +18,7 @@ public static void main(String[] args) {
 	
 	media = (nota1+nota2+nota3+nota4)/4;
 	
-	String msg = media >= 6 ? "Aprovado" : "Reprovado" ;
+	String msg = media >= 6 ? "Aprovado" + media : " Reprovado "  +  media ;
 	System.out.println(msg);
 }
 }
